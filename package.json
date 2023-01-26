@@ -1,0 +1,29 @@
+{
+  "name": "fritage",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "go-npm install",
+    "preuninstall": "go-npm uninstall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritikranjan12/ritage.git"
+  },
+  "author": "ritik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ritikranjan12/ritage/issues"
+  },
+  "homepage": "https://github.com/ritikranjan12/ritage#readme",
+  "dependencies": {
+    "go-npm": "^0.1.9"
+  },
+  "goBinary" : {
+    "name" : "ritage",
+    "path" : "./bin",
+    "url" :"https://github.com/ritikranjan12/ritage/releases/download/v0.1/ritage_Linux_x86_64.tar.gz"
+    
+  }
+}
